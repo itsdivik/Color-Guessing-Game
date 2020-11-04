@@ -1,78 +1,96 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-	background: #232323;
-	margin: 0;
-	font-family: "Montserrat","Avenir";
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+:root {
+  --purple: purple;
+  --black: black;
+  --white: white;
+  --blue: steelblue;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .square {
-
-	width: 30%;
-	margin: 1.66%;
-	float: right;
-	background-color: purple; 
-	padding-bottom: 30%;
-	border-radius: 20%;
-	transition: background 0.8s;
-	-webkit-transition: background 0.8s;
-	-moz-transition: background 0.8s;
-
+  width: 30%;
+  margin: 1.66%;
+  float: right;
+  background-color: var(--purple);
+  padding-bottom: 30%;
+  border-radius: 20%;
+  -o-transition: background 0.8s;
+  transition: background 0.8s;
+  -webkit-transition: background 0.8s;
+  -moz-transition: background 0.8s;
 }
 
 #container {
-	margin: 0 auto;
-	max-width: 600px;
-
+  margin: 30px auto;
+  max-width: 600px;
 }
 
 h1 {
-	color: white;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: normal;
-	margin: 0;
-	line-height: 1.2;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background: black;
+  color: var(--white);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.2;
+  padding: 30px;
+  background: var(--black);
 }
 
 #colordisplay {
-	font-size: 200%;
+  font-size: 200%;
 }
-#message{
-	font-size: inherit;
-	display: inline-block;
-	width: 20%;
+
+#message {
+  font-size: inherit;
+  display: inline-block;
+  width: 20%;
 }
+
 #stripe {
-
-	background-color: white;
-    text-align: center;
-    height: 30px;
-
+  background-color: var(--white);
+  text-align: center;
+  width: 600px;
+  margin: 20px auto;
 }
+
 .selected {
-	color: white;
-	background: steelblue;
+  color: var(--white);
+  background: var(--blue);
 }
 
 button {
-	border: none;
-	background: none;
-	text-transform: uppercase;
-	height: 100%;
-	font-weight: 700%;
-	color: steelblue;
-	letter-spacing: 1px;
-	font-size: inherit;
-	transition: all 0.6s;
-	-webkit-transition: all 0.6s;
-	-moz-transition: all 0.6s;
-	outline: none;
+  border: none;
+  background: none;
+  margin-left: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 700%;
+  color: var(--blue);
+  letter-spacing: 1px;
+  font-size: inherit;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  outline: none;
 }
 
 button:hover {
-	color: white;
-	background: steelblue;
+  color: var(--white);
+  background: var(--blue);
 }
