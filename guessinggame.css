@@ -54,17 +54,20 @@ h1 {
 #colordisplay {
   font-size: 200%;
 }
+
 #message {
   font-size: inherit;
   display: inline-block;
   width: 20%;
 }
+
 #stripe {
   background-color: var(--white);
   text-align: center;
   width: 600px;
   margin: 20px auto;
 }
+
 .selected {
   color: var(--white);
   background: var(--blue);

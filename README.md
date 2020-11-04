@@ -2,7 +2,7 @@
 
 Vanilla JS based colour guessing game.
 
-![The-Guessing-Game](https://user-images.githubusercontent.com/6918020/98069953-28916400-1e86-11eb-81a8-5e6bb79d72fa.png)
+![The-Guessing-Game](https://user-images.githubusercontent.com/6918020/98073125-9f7e2b00-1e8d-11eb-82a6-73e9043f3bd2.png)
 
 <!-- ACKNOWLEDGEMENTS -->
 
